@@ -31,10 +31,13 @@ body {
     background: skyblue;
   }
    */
+   .navbar-custom {
+    background: linear-gradient(90deg, rgba(255,255,255,1) 25%, rgba(235,237,238,1) 100%); 
+   }
 
   #togglerCustom {
       color:rgb(127, 127, 127) ;
-      border : rgb(127, 127, 127) 1px solid;  
+      /*border : rgb(127, 127, 127) 1px solid;  */
   }
 
   /*
@@ -58,4 +61,19 @@ body {
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
     color: teal;
+}
+
+.jumbotron {
+    text-align: center;
+    background: url("../images/john-fowler-RsRTIofe0HE-unsplash.jpg");
+    background-size: cover;
+    height: 800px;
+    display: flex;
+    justify-content: center;
+    align-items: center;
+
+    /* Create the parallax scrolling effect */
+    background-attachment: fixed;
+    background-position: center;
+    background-repeat: no-repeat;
 }
