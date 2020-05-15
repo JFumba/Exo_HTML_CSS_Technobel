@@ -78,4 +78,11 @@ body {
     background-repeat: no-repeat;
 }
 
+.test{
+    height: 50px;
+    width: 100%;
+    background-color: #A2B1B6;
+    color: rgba(37, 37, 37, 0.7);
+}
+
 
