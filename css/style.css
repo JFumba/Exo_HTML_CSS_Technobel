@@ -32,7 +32,7 @@ body {
   }
    */
    .navbar-custom {
-    background: linear-gradient(90deg, rgba(255,255,255,1) 25%, rgba(235,237,238,1) 100%); 
+    background: linear-gradient(90deg, rgba(255,255,255,1) 25%, rgba(235,237,238,0.95) 100%); 
    }
 
   #togglerCustom {
