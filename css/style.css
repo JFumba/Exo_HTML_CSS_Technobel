@@ -1,7 +1,15 @@
 
+@import url('https://fonts.googleapis.com/css2?family=Nunito+Sans&display=swap');
+
 body {
-    background: linear-gradient(90deg, rgba(255,255,255,1) 25%, rgba(235,237,238,1) 100%); 
+    background: linear-gradient(90deg, rgba(255,255,255,1) 25%, rgba(235,237,238,1) 100%);
+    font-family: 'Nunito Sans', sans-serif; 
 }
+
+button:focus {
+    outline:none !important;
+    box-shadow:none !important;
+  }
 /* white navbar
 .navbar-white{
     background: linear-gradient(90deg, rgba(255,255,255,1) 25%, rgba(235,237,238,1) 100%);
@@ -79,10 +87,13 @@ body {
 }
 
 .test{
-    height: 80px;
-    width: 100%;
+    padding: 10px;
     background-color: #A2B1B6;
     color: rgba(37, 37, 37, 0.7);
 }
 
+.neumo .neumoBtn {
+    color: white;
+    font-weight: bolder;
+}
 
