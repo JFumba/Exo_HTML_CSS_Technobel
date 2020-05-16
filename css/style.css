@@ -142,7 +142,17 @@ button:focus {
     text-align: center;
 }
 
+.modal .modal-content {
+    border: none;
+}
 
+.modal-header {
+    background-color: #A2B1B6;
+}
+
+.subscribe form .row {
+    margin: 5px;
+}
 
 
 
