@@ -10,6 +10,10 @@ body {
     font-family: 'Nunito Sans', sans-serif; 
 }
 
+.container-fluid {
+    width: 100%;
+}
+
 button:focus {
     outline:none !important;
     box-shadow:none !important;
@@ -47,6 +51,10 @@ button:focus {
     background: linear-gradient(90deg, rgba(255,255,255,1) 25%, rgba(235,237,238,0.95) 100%); 
    }
 
+   .dropdown-menu {
+    background: #F9FAFA; 
+   }
+
   #togglerCustom {
       color:rgb(127, 127, 127) ;
       /*border : rgb(127, 127, 127) 1px solid;  */
@@ -68,11 +76,19 @@ button:focus {
     color: rgba(127, 127, 127, 1);
 }
 .dropdown-item {
-    color: skyblue;
+    color: #A9B1B4;
 }
+
+.dropdown-item:hover {
+    background: #A9B1B4;
+    color: #E0FEFE;
+}
+
 .navbar-custom .nav-item.active .nav-link,
 .navbar-custom .nav-item:hover .nav-link {
-    color: teal;
+    color: #E0FEFE;
+    background: #A9B1B4;
+    border-radius: 5%;
 }
 
 .jumbotron {
@@ -106,14 +122,10 @@ button:focus {
     background-color: #cad0d6;
 }
 
-.carousel {
-    max-height: 300px;
-}
-
-.carousel-item img {
-}
 
 .subscribe{
+    border-top: 1px #A2B1B6 solid;
+    padding-top: 3px;
     text-align: center;
     bottom: 0;
 }
@@ -124,6 +136,10 @@ button:focus {
 .searchBtn {
     background-color: #565656;
     color: #f6f7f8;
+}
+
+.footer {
+    text-align: center;
 }
 
 
