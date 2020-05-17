@@ -30,35 +30,7 @@ button:focus {
     outline:none !important;
     box-shadow:none !important;
   }
-/* white navbar
-.navbar-white{
-    background: linear-gradient(90deg, rgba(255,255,255,1) 25%, rgba(235,237,238,1) 100%);
-    /* border-bottom: 1px solid lightgrey;
-  }
   
-  .navbar-white .navbar-nav > li > a,
-  .navbar-white .navbar-nav > li > a:hover
-  {
-    color: black;
-    line-height: 50px;
-  }
-  
-  .navbar-white .navbar-brand {
-    line-height: 50px;
-  }
-  
-  .navbar-white .navbar-nav > .open > a
-  .navbar-white .navbar-nav > .open > a:focus{
-    background: white;
-    color: black;
-  }
-
-  
-   .nav-link:hover {
-    color: white;
-    background: skyblue;
-  }
-   */
    .navbar-custom {
     background: linear-gradient(90deg, rgba(255,255,255,1) 25%, rgba(235,237,238,0.95) 100%); 
    }
@@ -69,17 +41,8 @@ button:focus {
 
   #togglerCustom {
       color:rgb(127, 127, 127) ;
-      /*border : rgb(127, 127, 127) 1px solid;  */
   }
 
-  /*
-  .navbar-custom .navbar-toggler .navbar-toggler-icon{
-      color: black !important ;
-  }
-
-  .navbar-custom {
-    background-color: #ff5500;
-}*/
 .navbar-custom .navbar-brand,
 .navbar-custom .navbar-text {
     color: rgba(127, 127, 127,.8);
