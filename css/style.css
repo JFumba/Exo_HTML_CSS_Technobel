@@ -195,6 +195,7 @@ form input {
 }
 
 .alert{
+    margin-bottom: 0;
     position: fixed;
     width: 100%;
     bottom: 0;
