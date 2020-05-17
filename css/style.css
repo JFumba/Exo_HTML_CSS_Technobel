@@ -158,14 +158,42 @@ button:focus {
     border: none;
 }
 
-.modal-header, .modal-footer {
+.modal-header {
+    text-align: center;
+    text-transform: uppercase;
     color: white;
     background-color: #A2B1B6;
 }
 
+.modal .modal-header .close {
+    text-align: center;
+    font-weight: bold;
+    color: white;
+}
+
+.modal-body {
+    align-items: center;
+}
+.connexion {
+    color: white;
+    font-weight: bolder;
+    width: 100%;
+    background-color: #E1B3A6;
+}
+
+.connexion:hover {
+    color: white;
+    font-weight: bold;
+    background-color: #ce826d;
+}
+
+form input {
+    opacity: 0.7;
+}
 .subscribe form .row {
     margin: 5px;
 }
+
 
 
 
