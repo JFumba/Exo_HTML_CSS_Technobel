@@ -199,6 +199,9 @@ form input {
     width: 100%;
     bottom: 0;
 }
+.vid , .map{
+    width: 50%;
+}
 
 
 
