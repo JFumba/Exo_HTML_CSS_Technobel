@@ -194,6 +194,11 @@ form input {
     margin: 5px;
 }
 
+.alert{
+    position: fixed;
+    width: 100%;
+    bottom: 0;
+}
 
 
 
