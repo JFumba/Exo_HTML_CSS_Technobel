@@ -190,8 +190,9 @@ button:focus {
 form input, form textarea {
     opacity: 0.7;
 }
-.subscribe form .row {
-    margin: 5px;
+.subscribe form {
+    text-align: left;
+    
 }
 
 .alert{
