@@ -221,6 +221,15 @@ thead {
     color: white;
 }
 
+#actu {
+    height: auto;
+}
+
+.btn-carousel .btn  {
+    border: none;
+    background-color: #A7AFB2;
+}
+
 
 
 
